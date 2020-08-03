@@ -1,0 +1,20 @@
+PODS:
+  - Eureka (5.2.1)
+  - UICircularProgressRing (6.5.0)
+
+DEPENDENCIES:
+  - Eureka
+  - UICircularProgressRing
+
+SPEC REPOS:
+  trunk:
+    - Eureka
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
+  UICircularProgressRing: e6852e8f88e296cbbbe2720cccb55241acda6708
+
+PODFILE CHECKSUM: 375fd225572932fb6585d9f06112bf2aeac6d58b
+
+COCOAPODS: 1.9.1

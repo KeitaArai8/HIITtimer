@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F10E5842480915D002589E5 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10E5832480915D002589E5 /* TabbarViewController.swift */; };
+		6F2E011B247A4A5E00ACE67E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E011A247A4A5E00ACE67E /* AppDelegate.swift */; };
+		6F2E011D247A4A5E00ACE67E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E011C247A4A5E00ACE67E /* SceneDelegate.swift */; };
+		6F2E011F247A4A5E00ACE67E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E011E247A4A5E00ACE67E /* ViewController.swift */; };
+		6F2E0122247A4A5E00ACE67E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2E0120247A4A5E00ACE67E /* Main.storyboard */; };
+		6F2E0124247A4A5F00ACE67E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2E0123247A4A5F00ACE67E /* Assets.xcassets */; };
+		6F2E0127247A4A5F00ACE67E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2E0125247A4A5F00ACE67E /* LaunchScreen.storyboard */; };
+		6F3012ED247A4D9300A1BE2A /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3012EC247A4D9300A1BE2A /* TimeViewController.swift */; };
+		6F3012EF247A4DA700A1BE2A /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3012EE247A4DA700A1BE2A /* SettingViewController.swift */; };
+		6F900BCA2489350D00BE35F8 /* second.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F900BC12489350D00BE35F8 /* second.mp3 */; };
+		6F900BCB2489350D00BE35F8 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F900BC22489350D00BE35F8 /* start.mp3 */; };
+		6F900BCC2489350D00BE35F8 /* mouhitoikidesu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F900BC32489350D00BE35F8 /* mouhitoikidesu.mp3 */; };
+		6F900BCD2489350D00BE35F8 /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F900BC42489350D00BE35F8 /* 10.mp3 */; };
+		6F900BCE2489350D00BE35F8 /* nokori.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F900BC52489350D00BE35F8 /* nokori.mp3 */; };
+		6F900BCF2489350D00BE35F8 /* countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F900BC62489350D00BE35F8 /* countdown.mp3 */; };
+		6F900BD22489350D00BE35F8 /* timeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F900BC92489350D00BE35F8 /* timeup.mp3 */; };
+		6F9198562489DCEA002CB8E7 /* zyunbihaiidesuka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9198552489DCEA002CB8E7 /* zyunbihaiidesuka.mp3 */; };
+		6F9198582489DDBD002CB8E7 /* syuuryou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F9198572489DDBD002CB8E7 /* syuuryou.mp3 */; };
+		6F91985A248A840A002CB8E7 /* cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F919859248A840A002CB8E7 /* cheer.mp3 */; };
+		F5EA3AD0C842281D4A34FFC4 /* Pods_HIITtimerApp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C5EF0F3F88EA4AA1B757B6 /* Pods_HIITtimerApp1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42C5EF0F3F88EA4AA1B757B6 /* Pods_HIITtimerApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIITtimerApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F10E5832480915D002589E5 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		6F2E0117247A4A5E00ACE67E /* HIITtimerApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITtimerApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2E011A247A4A5E00ACE67E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F2E011C247A4A5E00ACE67E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F2E011E247A4A5E00ACE67E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F2E0121247A4A5E00ACE67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F2E0123247A4A5F00ACE67E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F2E0126247A4A5F00ACE67E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F2E0128247A4A5F00ACE67E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3012EC247A4D9300A1BE2A /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		6F3012EE247A4DA700A1BE2A /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6F900BC12489350D00BE35F8 /* second.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = second.mp3; sourceTree = "<group>"; };
+		6F900BC22489350D00BE35F8 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+		6F900BC32489350D00BE35F8 /* mouhitoikidesu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mouhitoikidesu.mp3; sourceTree = "<group>"; };
+		6F900BC42489350D00BE35F8 /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		6F900BC52489350D00BE35F8 /* nokori.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nokori.mp3; sourceTree = "<group>"; };
+		6F900BC62489350D00BE35F8 /* countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countdown.mp3; sourceTree = "<group>"; };
+		6F900BC92489350D00BE35F8 /* timeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timeup.mp3; sourceTree = "<group>"; };
+		6F9198552489DCEA002CB8E7 /* zyunbihaiidesuka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zyunbihaiidesuka.mp3; sourceTree = "<group>"; };
+		6F9198572489DDBD002CB8E7 /* syuuryou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = syuuryou.mp3; sourceTree = "<group>"; };
+		6F919859248A840A002CB8E7 /* cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheer.mp3; sourceTree = "<group>"; };
+		C2A01BEC7934D7F0227ACABA /* Pods-HIITtimerApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIITtimerApp1.debug.xcconfig"; path = "Target Support Files/Pods-HIITtimerApp1/Pods-HIITtimerApp1.debug.xcconfig"; sourceTree = "<group>"; };
+		CD022631C538A650AC03C4A3 /* Pods-HIITtimerApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIITtimerApp1.release.xcconfig"; path = "Target Support Files/Pods-HIITtimerApp1/Pods-HIITtimerApp1.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F2E0114247A4A5E00ACE67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EA3AD0C842281D4A34FFC4 /* Pods_HIITtimerApp1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C48285E9624843CCB141CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C5EF0F3F88EA4AA1B757B6 /* Pods_HIITtimerApp1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F25F4AF247D78590054BA12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F25F4B0247D78630054BA12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F2E0120247A4A5E00ACE67E /* Main.storyboard */,
+				6F2E0125247A4A5F00ACE67E /* LaunchScreen.storyboard */,
+				6F2E0123247A4A5F00ACE67E /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F25F4B1247D786B0054BA12 /* mp3Data */ = {
+			isa = PBXGroup;
+			children = (
+				6F919859248A840A002CB8E7 /* cheer.mp3 */,
+				6F900BC12489350D00BE35F8 /* second.mp3 */,
+				6F900BC62489350D00BE35F8 /* countdown.mp3 */,
+				6F900BC32489350D00BE35F8 /* mouhitoikidesu.mp3 */,
+				6F900BC52489350D00BE35F8 /* nokori.mp3 */,
+				6F9198572489DDBD002CB8E7 /* syuuryou.mp3 */,
+				6F900BC22489350D00BE35F8 /* start.mp3 */,
+				6F9198552489DCEA002CB8E7 /* zyunbihaiidesuka.mp3 */,
+				6F900BC92489350D00BE35F8 /* timeup.mp3 */,
+				6F900BC42489350D00BE35F8 /* 10.mp3 */,
+			);
+			path = mp3Data;
+			sourceTree = "<group>";
+		};
+		6F2E010E247A4A5E00ACE67E = {
+			isa = PBXGroup;
+			children = (
+				6F2E0119247A4A5E00ACE67E /* HIITtimerApp1 */,
+				DF68FEDEFD3DECFF41DB6845 /* Pods */,
+				6C48285E9624843CCB141CC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F2E0118247A4A5E00ACE67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F2E0117247A4A5E00ACE67E /* HIITtimerApp1.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6F2E0119247A4A5E00ACE67E /* HIITtimerApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				6F25F4AF247D78590054BA12 /* Model */,
+				6F25F4B0247D78630054BA12 /* View */,
+				6FF10E9B24B4AFC300B56FFD /* Controller */,
+				6F2E0118247A4A5E00ACE67E /* Products */,
+				6F25F4B1247D786B0054BA12 /* mp3Data */,
+				6F2E0128247A4A5F00ACE67E /* Info.plist */,
+			);
+			path = HIITtimerApp1;
+			sourceTree = "<group>";
+		};
+		6FF10E9B24B4AFC300B56FFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F2E011A247A4A5E00ACE67E /* AppDelegate.swift */,
+				6F2E011C247A4A5E00ACE67E /* SceneDelegate.swift */,
+				6F2E011E247A4A5E00ACE67E /* ViewController.swift */,
+				6F10E5832480915D002589E5 /* TabbarViewController.swift */,
+				6F3012EE247A4DA700A1BE2A /* SettingViewController.swift */,
+				6F3012EC247A4D9300A1BE2A /* TimeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DF68FEDEFD3DECFF41DB6845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2A01BEC7934D7F0227ACABA /* Pods-HIITtimerApp1.debug.xcconfig */,
+				CD022631C538A650AC03C4A3 /* Pods-HIITtimerApp1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F2E0116247A4A5E00ACE67E /* HIITtimerApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2E012B247A4A5F00ACE67E /* Build configuration list for PBXNativeTarget "HIITtimerApp1" */;
+			buildPhases = (
+				46685B26BE5ABE77536F4852 /* [CP] Check Pods Manifest.lock */,
+				6F2E0113247A4A5E00ACE67E /* Sources */,
+				6F2E0114247A4A5E00ACE67E /* Frameworks */,
+				6F2E0115247A4A5E00ACE67E /* Resources */,
+				95BE28EBA086856D73B60FB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HIITtimerApp1;
+			productName = HIITtimerApp1;
+			productReference = 6F2E0117247A4A5E00ACE67E /* HIITtimerApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F2E010F247A4A5E00ACE67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Keita Arai";
+				TargetAttributes = {
+					6F2E0116247A4A5E00ACE67E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 6F2E0112247A4A5E00ACE67E /* Build configuration list for PBXProject "HIITtimerApp1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F2E010E247A4A5E00ACE67E;
+			productRefGroup = 6F2E0118247A4A5E00ACE67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F2E0116247A4A5E00ACE67E /* HIITtimerApp1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F2E0115247A4A5E00ACE67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F900BCE2489350D00BE35F8 /* nokori.mp3 in Resources */,
+				6F2E0127247A4A5F00ACE67E /* LaunchScreen.storyboard in Resources */,
+				6F900BCF2489350D00BE35F8 /* countdown.mp3 in Resources */,
+				6F900BCD2489350D00BE35F8 /* 10.mp3 in Resources */,
+				6F9198562489DCEA002CB8E7 /* zyunbihaiidesuka.mp3 in Resources */,
+				6F2E0124247A4A5F00ACE67E /* Assets.xcassets in Resources */,
+				6F91985A248A840A002CB8E7 /* cheer.mp3 in Resources */,
+				6F900BCB2489350D00BE35F8 /* start.mp3 in Resources */,
+				6F900BD22489350D00BE35F8 /* timeup.mp3 in Resources */,
+				6F2E0122247A4A5E00ACE67E /* Main.storyboard in Resources */,
+				6F9198582489DDBD002CB8E7 /* syuuryou.mp3 in Resources */,
+				6F900BCA2489350D00BE35F8 /* second.mp3 in Resources */,
+				6F900BCC2489350D00BE35F8 /* mouhitoikidesu.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46685B26BE5ABE77536F4852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HIITtimerApp1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95BE28EBA086856D73B60FB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HIITtimerApp1/Pods-HIITtimerApp1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HIITtimerApp1/Pods-HIITtimerApp1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HIITtimerApp1/Pods-HIITtimerApp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2E0113247A4A5E00ACE67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3012EF247A4DA700A1BE2A /* SettingViewController.swift in Sources */,
+				6F2E011F247A4A5E00ACE67E /* ViewController.swift in Sources */,
+				6F10E5842480915D002589E5 /* TabbarViewController.swift in Sources */,
+				6F3012ED247A4D9300A1BE2A /* TimeViewController.swift in Sources */,
+				6F2E011B247A4A5E00ACE67E /* AppDelegate.swift in Sources */,
+				6F2E011D247A4A5E00ACE67E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F2E0120247A4A5E00ACE67E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2E0121247A4A5E00ACE67E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F2E0125247A4A5F00ACE67E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F2E0126247A4A5F00ACE67E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F2E0129247A4A5F00ACE67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F2E012A247A4A5F00ACE67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F2E012C247A4A5F00ACE67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A01BEC7934D7F0227ACABA /* Pods-HIITtimerApp1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 938TARF4XK;
+				INFOPLIST_FILE = HIITtimerApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.ynwano.14.HIITtimerApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6F2E012D247A4A5F00ACE67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD022631C538A650AC03C4A3 /* Pods-HIITtimerApp1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 938TARF4XK;
+				INFOPLIST_FILE = HIITtimerApp1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.ynwano.14.HIITtimerApp1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F2E0112247A4A5E00ACE67E /* Build configuration list for PBXProject "HIITtimerApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2E0129247A4A5F00ACE67E /* Debug */,
+				6F2E012A247A4A5F00ACE67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2E012B247A4A5F00ACE67E /* Build configuration list for PBXNativeTarget "HIITtimerApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2E012C247A4A5F00ACE67E /* Debug */,
+				6F2E012D247A4A5F00ACE67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F2E010F247A4A5E00ACE67E /* Project object */;
+}
