@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		42C5EF0F3F88EA4AA1B757B6 /* Pods_HIITtimerApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIITtimerApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F10E5832480915D002589E5 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
-		6F2E0117247A4A5E00ACE67E /* HIITtimerApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITtimerApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2E0117247A4A5E00ACE67E /* HIITtimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITtimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2E011A247A4A5E00ACE67E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F2E011C247A4A5E00ACE67E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F2E011E247A4A5E00ACE67E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		6F2E0118247A4A5E00ACE67E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F2E0117247A4A5E00ACE67E /* HIITtimerApp1.app */,
+				6F2E0117247A4A5E00ACE67E /* HIITtimerApp.app */,
 			);
 			name = Products;
 			path = ..;
@@ -166,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F2E0116247A4A5E00ACE67E /* HIITtimerApp1 */ = {
+		6F2E0116247A4A5E00ACE67E /* HIITtimerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F2E012B247A4A5F00ACE67E /* Build configuration list for PBXNativeTarget "HIITtimerApp1" */;
+			buildConfigurationList = 6F2E012B247A4A5F00ACE67E /* Build configuration list for PBXNativeTarget "HIITtimerApp" */;
 			buildPhases = (
 				46685B26BE5ABE77536F4852 /* [CP] Check Pods Manifest.lock */,
 				6F2E0113247A4A5E00ACE67E /* Sources */,
@@ -180,9 +180,9 @@
 			);
 			dependencies = (
 			);
-			name = HIITtimerApp1;
+			name = HIITtimerApp;
 			productName = HIITtimerApp1;
-			productReference = 6F2E0117247A4A5E00ACE67E /* HIITtimerApp1.app */;
+			productReference = 6F2E0117247A4A5E00ACE67E /* HIITtimerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F2E0116247A4A5E00ACE67E /* HIITtimerApp1 */,
+				6F2E0116247A4A5E00ACE67E /* HIITtimerApp */,
 			);
 		};
 /* End PBXProject section */
@@ -369,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -423,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F2E012B247A4A5F00ACE67E /* Build configuration list for PBXNativeTarget "HIITtimerApp1" */ = {
+		6F2E012B247A4A5F00ACE67E /* Build configuration list for PBXNativeTarget "HIITtimerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F2E012C247A4A5F00ACE67E /* Debug */,
